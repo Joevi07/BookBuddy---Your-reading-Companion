@@ -3,14 +3,14 @@
 ___
 ## 📌 TABLE OF CONTENTS
 
-1. [🎯 AIM](#aim)
-2. [🧩 FEATURES OFFERED](#features-offered)
-3. [🧪 TECHNOLOGIES & APIS USED](#technologies--apis-used)
-4. [⚙️ INTEGRATION / EXECUTION SEQUENCE](#integration--execution-sequence)
-5. [🛠️ TOOLS / FRAMEWORKS USED](#tools--frameworks-used)
-6. [🧠 AI CAPABILITIES](#ai-capabilities)
-7. [⚠️ LIMITATIONS](#limitations)
-8. [🖼️ DEMO SCREENSHOTS](#demo-screenshots)
+1. [🎯 AIM](#🎯aim)
+2. [🧩 FEATURES OFFERED](#🧩features-offered)
+3. [🧪 TECHNOLOGIES & APIS USED](#🧪technologies--apis-used)
+4. [⚙️ INTEGRATION / EXECUTION SEQUENCE](#️⚙️integration--execution-sequence)
+5. [🛠️ TOOLS / FRAMEWORKS USED](#️🛠️tools--frameworks-used)
+6. [🧠 AI CAPABILITIES](#🧠ai-capabilities)
+7. [⚠️ LIMITATIONS](#⚠️limitations)
+8. [🖼️ DEMO SCREENSHOTS](#🖼️demo-screenshots)
 ___
 ## 🎯AIM
 To build a responsive, real-time AI-powered assistant that allows users to upload PDFs and ask contextual questions, with personalized interactions and features such as searching meanings, jotting down notes for their future reference.
