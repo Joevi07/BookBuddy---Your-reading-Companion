@@ -1,0 +1,168 @@
+html,body{
+    height: 100%;
+}
+
+ body {
+  margin: 0;
+  padding: 0;
+background: linear-gradient(-45deg, #0f172a, #1e3a8a, #0f172a, #1e3a8a);  background-size: 400% 1%;
+  animation: gradientBlue 20s ease infinite;
+  font-family: 'Poppins', sans-serif;
+  color: #003566;
+  overflow-x: hidden;
+}
+
+
+@keyframes gradientBlue {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+#welcome-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1px 75px;
+   /*  background-color: whitesmoke; */
+    backdrop-filter: blur(25px);
+    box-shadow: 0 5px 15px rgba(1,0,0,0.1);
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index:1000;
+}
+#welcome-header .logo-cont{
+    margin-left:0;
+    margin-top:0px;
+
+}
+
+
+.contents {
+    display: flex;
+    align-items: center;
+}
+
+#wel-navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right:0;
+
+}
+#wel-navbar li{
+    list-style: none;
+    padding:0 20px;
+    position: relative;
+}
+#wel-navbar li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+#navbut li a:hover,
+#wel-navbar li a:hover{
+    color:red;
+}
+
+
+#welcome-content{
+    display: flex;
+    justify-content: space-between;
+    padding:50px;
+    gap:50px;
+    flex-direction: column;
+    height: 100vh;
+}
+.welcome-tag{
+    display: flex;
+    flex-direction: column;
+    margin-left:5%;
+    align-items: center; 
+}
+
+.welcome-tag h1
+{
+    white-space: nowrap;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+   
+}
+.welcome-tag h3{
+    margin-top:1px;
+    text-align: center;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   align-self: flex-start; /* This moves ONLY these two to the left */
+    margin-left: 28%;
+}
+.read-book,.dictionary-book,.chatbot-book,.notes-book{
+    height:100%;
+    width:100%;
+    max-width: 1100px;  /* fits both children easily */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:5rem;
+    flex-wrap:nowrap;
+    padding:5rem;
+}
+.read-book .read-content ,.dictionary-book .dic-content,
+.chatbot-book .chat-content,.notes-book .note-content{
+  color:white;
+  background:#2A2A3B;
+  width: 50%;
+  height:90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(163, 218, 237, 0.3);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+  font-family: 'Poppins';
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.read-book .read-content:hover,.dictionary-book .dic-content:hover,
+.notes-book .note-content:hover,.chatbot-book .chat-content:hover
+ {
+  transform: scale(1.05);
+}
+
+.read-content p,.dic-content p,.note-content p,.chat-content p{
+    margin-left:50px;
+    line-height: 35px;
+    font-size: 20px;
+}
+.read-img,.dic-img,.chat-img,.dic-img{
+    width:300px;
+    height: auto;
+    margin-right:30px;
+}
+
+#upload-btn,#dic-btn,#chat-btn,#note-btn{
+    padding:10px 22px;
+    color:black;
+    background: violet;
+    border:1px solid violet;
+    border-radius: 51px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#upload-content{
+    padding: 40px;
+   
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BookBuddy-Notes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='../css_files/wel_style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css_files/fea_style.css'>
+    <script type='module' src="../js_files/notes.js"> </script>
+
+</head>
+<body>
+    <section id="header">
+        <div class="logo-cont">
+        <img src="../images/small_logo.png">
+        
+        </div>
+        
+        <div class ="contents">
+                      <ul id="navbut">
+              <li><a href="../html_files/read.html">📖Read</a></li>      
+              <li><a href="../html_files/dictionary.html">🔍Dictionary</a></li>
+              <li><a href="../html_files/Notes.html">📄Notes</a></li>      
+               <li><a href="../html_files/chatbot.html">💬Chatbot</a></li>      
+            </ul>
+            <ul id="navbar">
+                <li><a href="../html_files/index.html">Logout</a></li>      
+                <li><a href="../html_files/register.html">Sign Up</a></li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="wrapper">
+        <li class="add-box">
+            <i class="fa-solid fa-plus" id="plus"></i>
+            <p>Add new note</p>
+        </li>
+
+        <div class="popup-box" id="popup-box">
+            <div class="popup">
+                <div class="content" id="add-content">
+                    <header>
+                        <h2>Add a new note</h2>
+                        <i class="fa-solid fa-xmark" id="add-x"></i>
+                    </header>
+                    <div class="title">
+                        <h3>Title</h3>
+                        <textarea rows="2" cols="53" placeholder="Enter your title"></textarea>
+                    </div>
+                    <div class="Description">
+                        <h3>Description</h3>
+                        <textarea rows="10" cols="53" placeholder="Enter your description"></textarea>
+                    </div>
+                    <button id="add-note">
+                        Add Note
+                    </button>
+                </div>
+                <div class="update" id="update-content">
+                     <header>
+                        <h2>Update note</h2>
+                        <i class="fa-solid fa-xmark" id="update-x"></i>
+                    </header>
+                    <div class="title">
+                        <h3>Title</h3>
+                        <textarea rows="2" cols="53" placeholder="Enter your title"></textarea>
+                    </div>
+                    <div class="Description">
+                        <h3>Description</h3>
+                        <textarea rows="10" cols="53" placeholder="Enter your description"></textarea>
+
+                    </div>
+                    <button id="update-note">
+                        Update Note
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BookBuddy-Dictionary</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='../css_files/wel_style.css'>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel='stylesheet' type='text/css' media='screen' href='../css_files/fea_style.css'>
+    <script src='../js_files/dic.js'></script>
+</head>
+<body>
+    <section id="header">
+        <div class="logo-cont">
+        <img src="../images/small_logo.png">
+        
+        </div>
+        
+        <div class ="contents">
+              <ul id="navbut">
+              <li><a href="../html_files/read.html">📖Read</a></li>      
+              <li><a href="../html_files/dictionary.html">🔍Dictionary</a></li>
+              <li><a href="../html_files/Notes.html">📄Notes</a></li>      
+               <li><a href="../html_files/chatbot.html">💬Chatbot</a></li>      
+            </ul>
+            <ul id="navbar">
+                <li><a href="../html_files/index.html">Logout</a></li>      
+                <li><a href="../html_files/register.html">Sign Up</a></li>
+                
+            </ul>
+        </div>
+    </section>
+
+    <section id="dic-content">
+        <div class="left-pane">
+            
+            <input class="search-input" type="search" id="search-word" required>
+            <label for="search-word" class="label-txt">Search any word</label>   
+             <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+             <div class="meaning">
+                <div class="mean-cont">
+                <div class="word-header">
+                    <i class="fa-solid fa-volume-high" id="speaker-btn"></i>
+                    <h2 id="word-text"> example </h2>
+                </div>
+                
+                <div class="definitions">
+                    <h3>Meanings</h3>
+                    <ul id="def-list">
+                        <li>A thing or character</li>
+                        <li>A person or people</li>
+                    </ul>
+                </div>
+
+                <div class="synonyms">
+                    <h3>Synonyms</h3>
+                    <p id="synonyms-list">sample,instance,case,illustration</p>
+                </div>
+                 <div class="tamiltrans">
+                    <h3>தமிழ் மொழிபெயர்ப்பு</h3>
+                     <p id="tamil-meaning">உதாரணம்</p>
+                </div>
+                </div>
+
+             </div>
+            
+        </div>
+
+        <div class="right-pane">
+            <div class="floating-wrapper ">
+                <img src="../images/fairy.png" class="floating-fairy">
+           </div>
+           <div class="typewriter-effect">
+            <span id="typewriter-text"></span>
+           </div>
+        </div>
+    </section>
+    <script>
+  const quotes = [
+    "Words are magical spells in disguise.",
+    "A dictionary is a universe in alphabetical order.",
+    "Speak a word, and change a world.",
+    "Every word was once a poem.",
+    "Words are our most inexhaustible source of magic."
+  ];
+
+  let currentQuote = 0;
+  let charIndex = 0;
+  const typewriterText = document.getElementById("typewriter-text");
+
+  function typeQuote() {
+    if (!typewriterText) return; // Safety check
+    if (charIndex < quotes[currentQuote].length) {
+      typewriterText.textContent += quotes[currentQuote].charAt(charIndex);
+      charIndex++;
+      setTimeout(typeQuote, 50);
+    } else {
+      setTimeout(eraseQuote, 2000);
+    }
+  }
+
+  function eraseQuote() {
+    if (!typewriterText) return;
+    if (charIndex > 0) {
+      typewriterText.textContent = quotes[currentQuote].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(eraseQuote, 30);
+    } else {
+      currentQuote = (currentQuote + 1) % quotes.length;
+      setTimeout(typeQuote, 500);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    typeQuote();
+  });
+</script>
+
+
+</body>
+</html>
