@@ -12,10 +12,10 @@ ___
 7. [⚠️ LIMITATIONS](#limitations)
 8. [🖼️ DEMO SCREENSHOTS](#demo-screenshots)
 ___
-## 🎯 AIM
+## 🎯AIM
 To build a responsive, real-time AI-powered assistant that allows users to upload PDFs and ask contextual questions, with personalized interactions and features such as searching meanings, jotting down notes for their future reference.
 ___
-## 🧩 FEATURES OFFERED
+## 🧩FEATURES OFFERED
 
 + 🔐 User Authentication (Signup/Login) via Firebase.
 + 📥 Upload and render PDFs with PDF.js.
@@ -27,7 +27,7 @@ ___
 + 🖼️ FontAwesome icons and Google Fonts for a polished design.
 
 ___
-## 🧪 TECHNOLOGIES & APIs USED
+## 🧪TECHNOLOGIES & APIs USED
 
 | Category         | Tools / APIs / Libraries                                   |
 |------------------|------------------------------------------------------------|
@@ -40,7 +40,7 @@ ___
 | Hosting/Serving  | `Live Server`, optionally deployable via Firebase Hosting  |
 
 ___
-## ⚙️ INTEGRATION / EXECUTION SEQUENCE
+## ⚙️INTEGRATION / EXECUTION SEQUENCE
 
 1. **Clone the Repository**
    ```bash
@@ -69,7 +69,7 @@ ___
 6. Navigate through the navbar at top to enjoy various features.
 
 ___
-## 🛠️ TOOLS / FRAMEWORKS USED
+## 🛠️TOOLS / FRAMEWORKS USED
   + VS Code – Development IDE
   + Firebase Console – Project setup and authentication, Real time database
   + Genkit CLI – Gemini API integration
@@ -85,7 +85,7 @@ ___
   + Real-Time Chat Interface – Seamless chat UI integrated with Gemini model via Genkit.
 
 ___
-## ⚠️ LIMITATIONS:
+## ⚠️LIMITATIONS:
   + 📄 Asynchronous PDF Rendering:
       For large PDFs, rendering happens one page at a time using PDF.js, making smooth scrolling difficult or inconsistent.
   +  🕐 Slow Chatbot Response:
@@ -94,7 +94,7 @@ Due to using Gemini 1.5 Flash via Genkit, there can be slight delays in generati
 Relies on Firebase and Google APIs, requiring an active internet connection.
 
 ___
-## 🖼️ DEMO SCREENSHOTS:
+## 🖼️DEMO SCREENSHOTS:
 ![Login-page](demo-ss/login.png)
 ![Signup-page](demo-ss/signup.png)
 ![welcome-page](demo-ss/welcome.png)
