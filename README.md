@@ -1,4 +1,4 @@
-# BookBuddy--Your-reading-Companion
+# BookBuddy-Your-reading-Companion
 **BookBuddy** is a smart, AI-powered book assistant that enhances your reading experience by letting you upload PDFs and interact with them through a chat interface. It leverages Google's **Genkit + Gemini**, integrates **Firebase** for user authentication and storage, uses **PDF.js** for smooth PDF rendering, and features a responsive frontend built with **HTML, CSS, JavaScript**, and backend with **Node.js,Express.js with typescript**.
 ___
 ## 📌 TABLE OF CONTENTS
