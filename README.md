@@ -89,7 +89,13 @@ Relies on Firebase and Google APIs, requiring an active internet connection.
 
 ___
 ## 🖼️ DEMO SCREENSHOTS:
-
+![Login-page](demo-ss/login.png)
+![Signup-page](demo-ss/signup.png)
+![welcome-page](demo-ss/welcome.png)
+![Readpdf-page](demo-ss/upload.png)
+![Dictionary-page](demo-ss/dic.png)
+![Notes-page](demo-ss/notes.png)
+![Chatbot-page](demo-ss/chatbot.png)
 
 
 
