@@ -95,13 +95,13 @@ Relies on Firebase and Google APIs, requiring an active internet connection.
 
 ___
 ## DEMO SCREENSHOTS:
-![Login-page](demo-ss/login.png)
-![Signup-page](demo-ss/signup.png)
-![welcome-page](demo-ss/welcome.png)
-![Readpdf-page](demo-ss/upload.png)
-![Dictionary-page](demo-ss/dic.png)
-![Notes-page](demo-ss/notes.png)
-![Chatbot-page](demo-ss/chatbot.png)
+![Login-page](demo_ss/login.png)
+![Signup-page](demo_ss/signup.png)
+![welcome-page](demo_ss/welcome.png)
+![Readpdf-page](demo_ss/upload.png)
+![Dictionary-page](demo_ss/dic.png)
+![Notes-page](demo_ss/notes.png)
+![Chatbot-page](demo_ss/chatbot.png)
 
 
 
